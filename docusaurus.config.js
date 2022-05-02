@@ -27,7 +27,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/rexcape/rxofclock-docs/tree/main/docs",
+            "https://github.com/rexcape/rxofclock-docs/tree/main",
         },
         blog: false,
         theme: {
