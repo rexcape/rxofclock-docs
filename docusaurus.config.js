@@ -68,7 +68,7 @@ const config = {
             items: [
               {
                 label: "介绍",
-                to: "/docs",
+                to: "/",
               },
             ],
           },
