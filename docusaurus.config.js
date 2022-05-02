@@ -6,6 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  noIndex: true,
   title: "rxOfclock",
   tagline: "A useless tool for converting sheets to any text you want",
   url: "https://rxofclock-docs.vercel.app",
@@ -26,7 +27,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/rexcape/rxofclock-docs/tree/main/docs",
         },
         blog: false,
         theme: {
