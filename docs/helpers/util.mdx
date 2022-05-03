@@ -1,0 +1,35 @@
+---
+sidebar_position: 2
+---
+
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+
+# 字符串处理
+
+## trimEnd
+
+trimEnd 用于删除字符串尾部的空格
+
+<Tabs>
+<TabItem value="input" label="输入" default>
+
+```handlebars
+{{trimEnd text}}
+```
+
+```js
+{
+  text: "foo             "
+}
+```
+
+</TabItem>
+<TabItem value="output" label="输出">
+
+```text
+foo
+```
+
+</TabItem>
+</Tabs>

@@ -28,7 +28,7 @@ Handlebars 是一个简单的模板语言，它使用模板来生成 HTML 或其
 
 如果传入的对象是
 
-```javascript
+```js
 {
   firstname: "forte",
   lastname: "escape"
@@ -45,7 +45,7 @@ forte escape
 
 如果传入的对象包含了其他对象或数组，例如
 
-```javascript
+```js
 {
   person: {
     firstname: "forte",
@@ -74,7 +74,7 @@ with 块内的代码可以直接访问对象的属性
 {{/with}}
 ```
 
-```javascript
+```js
 {
   person: {
     firstname: "forte",
@@ -91,7 +91,7 @@ each 可以遍历一个数组，你可以在循环中访问每个遍历对象的
 {{/each}}
 ```
 
-```javascript
+```js
 {
   fruits: [
     "apple",
