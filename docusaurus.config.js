@@ -95,8 +95,8 @@ const config = {
       },
     }),
   i18n: {
-    defaultLocale: "zh-CN",
-    locales: ["zh-CN"],
+    defaultLocale: "zh-Hans",
+    locales: ["zh-Hans"],
   },
 };
 
