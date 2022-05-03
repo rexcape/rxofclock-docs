@@ -1,8 +1,13 @@
 ---
 sidebar_position: 3
+title: 助手
 ---
 
-# 助手
+:::info
+
+本文章取自 [Handlebars 官方中文文档](https://handlebarsjs.com/zh/guide/expressions.html#%E5%8A%A9%E6%89%8B%E4%BB%A3%E7%A0%81)
+
+:::
 
 助手代码可以实现一些并非 Handlesbars 语言本身的功能。
 

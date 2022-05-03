@@ -1,8 +1,13 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+title: Handlebars 基础
 ---
 
-# Handlebars 基础
+:::info
+
+本文章取自 [Handlebars 官方中文文档](https://handlebarsjs.com/zh/guide/)
+
+:::
 
 ## 什么是 Handlebars
 
