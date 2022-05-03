@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: 助手
+title: 助手的使用
 ---
 
 :::info
