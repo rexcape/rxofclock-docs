@@ -8,7 +8,28 @@ import TabItem from "@theme/TabItem";
 
 随机生成助手在需要生成一些随机数值时非常有用
 
-## uuid
+## UUID
+
+随机生成 uuid(v4)
+
+<Tabs>
+<TabItem value="input" label="输入" default>
+
+```handlebars
+{{UUID}}
+```
+
+</TabItem>
+<TabItem value="output" label="输出">
+
+```text
+32be61a5-d1b5-45e4-8ffb-002ae4d63724
+```
+
+</TabItem>
+</Tabs>
+
+## simpleUUID
 
 随机生成 uuid(v4, 没有中间的 `-`)
 
@@ -16,7 +37,7 @@ import TabItem from "@theme/TabItem";
 <TabItem value="input" label="输入" default>
 
 ```handlebars
-{{uuid}}
+{{simpleUUID}}
 ```
 
 </TabItem>
