@@ -28,8 +28,7 @@ sidebar_position: 2
 ]
 ```
 
-之后，转换后的 `Object` 数组会被传入 `Handlebars` 的 `data` 参数中，\
-可以按照如下方式使用 `each` 遍历这个 `data` 参数
+之后，转换后的 `Object` 数组会被传入 Handlebars 的 `data` 参数中，可以按照如下方式使用 `each` 遍历这个 `data` 参数
 
 ```handlebars
 {{#each data}}

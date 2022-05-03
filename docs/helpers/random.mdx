@@ -1,16 +1,49 @@
 ---
 sidebar_position: 3
+title: 随机生成助手
 ---
 
-import Tabs from '@theme/Tabs'
-import TabItem from '@theme/TabItem'
-
-# 随机生成
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
 ## uuid
 
-随机生成 uuid（v4 没有中间的 `-`）
+随机生成 uuid(v4, 没有中间的 `-`)
+
+<Tabs>
+<TabItem value="input" label="输入" default>
+
+```handlebars
+{{uuid}}
+```
+
+</TabItem>
+<TabItem value="output" label="输出">
+
+```text
+258801ccd3b84d239bac9146006ff7c6
+```
+
+</TabItem>
+</Tabs>
 
 ## nanoid
 
 随机生成 nanoid
+
+<Tabs>
+<TabItem value="input" label="输入" default>
+
+```handlebars
+{{nanoid}}
+```
+
+</TabItem>
+<TabItem value="output" label="输出">
+
+```text
+AmjQsfmBph3dfPjhnuWqF
+```
+
+</TabItem>
+</Tabs>
