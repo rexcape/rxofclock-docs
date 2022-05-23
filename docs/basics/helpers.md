@@ -27,17 +27,24 @@ Handlebars 助手代码的调用需要一个简单标识符，且可紧接一个
 
 此例子中，`loud` 是助手代码的名称，而 `lastname` 为传递给助手代码的参数。此模板，将会将输入的 `uppercase` 属性正确地转换为大写：
 
-input
+输入
+
+```javascript
 {
-firstname: "Yehuda",
-lastname: "Katz",
+  firstname: "Yehuda",
+  lastname: "Katz",
 }
-output
+```
+
+输出
+
+```text
 Yehuda KATZ
+```
 
 ## 避免助手代码的返回值被 HTML 转义
 
-即使当使用 {{ 而非 {{{ 来调用助手代码时，当你的助手代码返回一个 Handlebars.Safestring 的实例，返回值也并不会被转义 。你需要留心将所有参数正确地使用 Handlebars.escapeExpression 来转义。
+即使当使用 `{{` 而非 `{{{` 来调用助手代码时，当你的助手代码返回一个 `Handlebars.Safestring` 的实例，返回值也并不会被转义。你需要留心将所有参数正确地使用 `Handlebars.escapeExpression` 来转义。
 
 ```js
 Handlebars.registerHelper("bold", function (text) {

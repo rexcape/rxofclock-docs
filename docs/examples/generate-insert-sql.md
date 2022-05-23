@@ -13,7 +13,7 @@ sidebar_position: 1
 
 ## 模板配置
 
-```plain
+```hbs
 {{#each data}}
 INSERT INTO FRUITS VALUES('{{fruit}}',{{price}})
 {{/each}}

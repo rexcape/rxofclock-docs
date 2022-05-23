@@ -13,7 +13,7 @@ sidebar_position: 2
 
 ## 模板配置
 
-```plain
+```hbs
 CREATE TABLE FRUIT(
 {{#each data}}
   `{{column}}` {{type}}({{length}}) COMMENT '{{comment}}',
