@@ -10,7 +10,7 @@ const config = {
   title: "rxOfclock",
   tagline: "A useless tool for converting sheets to any text you want",
   url: "https://rxofclock-docs.vercel.app",
-  baseUrl: "/",
+  baseUrl: "/docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
